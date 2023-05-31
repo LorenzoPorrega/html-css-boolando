@@ -92,7 +92,7 @@
 
 .card{
     flex-basis: 33.3%;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
 }
 
 .col{
@@ -149,4 +149,25 @@
     display: inline-block;
     padding: .25rem 1rem;
     background-color: green;
+}
+
+.current-price{
+    color: red;
+    font-weight: 600;
+}
+
+.original-price{
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+}
+
+/* Footer */
+
+footer{
+    height: 100px;
+    background-color: rgb(26, 26, 26);
+}
+
+.footer-bar{
+    max-width: 70%;
 }
