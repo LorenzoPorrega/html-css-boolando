@@ -108,27 +108,27 @@
     position: relative;
 }
 
-.image-container:first-child{
+.image-container img:first-child{
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.image-container:nth-child(2){
+.image-container img:nth-child(2){
     display: none;
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.image-container:first-child:hover{
+.image-container img:first-child:hover{
     display: none;
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.image-container:nth-child(2):hover{
+.image-container img:nth-child(2):hover{
     width: 100%;
     height: 100%;
     object-fit: contain;
