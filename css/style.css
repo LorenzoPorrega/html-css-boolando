@@ -60,8 +60,15 @@
     align-items: center;
 }
 
-.icons i{
+.icons div{
     width: 40px;
     height: 40px;
+}
+
+.icons div:hover{
+    cursor: pointer;
+}
+
+.icons i{
     color: white;
 }
