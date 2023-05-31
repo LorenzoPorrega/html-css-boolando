@@ -108,30 +108,30 @@
     position: relative;
 }
 
-.image-container img:first-child{
+.on-page-open{
     width: 100%;
     height: 100%;
     object-fit: contain;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
-.image-container img:nth-child(2){
-    display: none;
+.on-hover{
     width: 100%;
     height: 100%;
     object-fit: contain;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-.image-container img:first-child:hover{
-    display: none;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.image-container:hover .on-page-open{
+    opacity: 0;
 }
 
-.image-container img:nth-child(2):hover{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.image-container:hover .on-hover{
+    opacity: 1;
 }
 
 .bottom-overlay{
