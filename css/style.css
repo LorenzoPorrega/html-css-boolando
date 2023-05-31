@@ -95,11 +95,7 @@
     padding-bottom: 5rem;
 }
 
-.side{
-    padding: 0rem 1rem 5rem 0rem;
-}
-
-.middle{
+.col{
     padding-left: 1rem;
     padding-right: 1rem;
 }
