@@ -96,7 +96,7 @@
 }
 
 .side{
-    padding: 0rem 1rem 5rem;
+    padding: 0rem 1rem 5rem 0rem;
 }
 
 .middle{
@@ -108,11 +108,21 @@
     position: relative;
 }
 
-.card img{
+.image-container:first-child{
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
+
+.image-container:nth-child(2){
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+
 
 
 
