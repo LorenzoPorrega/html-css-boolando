@@ -119,12 +119,20 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    
 }
 
+.image-container:first-child:hover{
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
-
-
+.image-container:nth-child(2):hover{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 .bottom-overlay{
     position: absolute;
