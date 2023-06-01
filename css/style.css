@@ -115,6 +115,7 @@
     object-fit: contain;
     opacity: 1;
     transition: opacity 0.5s;
+    display: block;
 }
 
 .on-hover{
@@ -133,6 +134,7 @@
 
 .image-container:hover .on-hover{
     opacity: 1;
+    display: block;
 }
 
 .bottom-overlay{
@@ -242,7 +244,7 @@ footer{
 }
 
 .social-icons-bar i{
-    width: 20px;
+    width: 30px;
     height: 20px;
     font-size: 1.75rem;
 }
